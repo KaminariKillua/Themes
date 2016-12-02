@@ -1,5 +1,5 @@
 .account::after {
-	content: "Glacial Prison v5.0";
+	content: "Glacial Prison v2.0";
 	color: #fff;
 	font-size: 11px;
 	font-weight: 700;
@@ -26,7 +26,7 @@ body::after {
 }
 
 /*<*>*/
-/* Alert made by BeardDesign and heavily modified by Omniscient */
+/* Alert made by BeardDesign and Omniscient, modified by Raijū */
 /*ALERT*/
 .tutorial-indicators+.theme-dark:before {
   content: "You need to have the light mode enabled for this theme to work properly. To enable it, go into settings > appearance.";
@@ -1239,8 +1239,7 @@ textarea {
 .guild-channels,
 .private-channels,
 .divider-red span,
-.messages-wrapper,
-#voice-connection {
+.messages-wrapper{
 	background: transparent !important;
 }
 
@@ -1456,16 +1455,18 @@ span.bot-tag {
 .theme-light .account .btn-mute {
 	border-right: none;
 }
-#voice-connection {
+#voice-connection { /*<*> VOICE*/
 	border-top: none !important;
+	margin-left: 20px;
+	background: rgba(0, 0, 0, 0.26);
 	padding: 10px 20px 10px 18px !important;
 }
-#voice-connection .btn {
-	background: rgba(0, 0, 0, 0.45);
+#voice-connection .btn { /*<*>*/
+	background: rgba(255, 0, 0, 1);
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 }
-#voice-connection .btn:active {
+#voice-connection .btn:active { /*<*>*/
 	background: rgba(0, 0, 0, 0.6);
 }
 .theme-light .account .btn-deafen,
@@ -2904,11 +2905,11 @@ button.win-minimize:hover {
 	margin-left: 18px;
 	margin-top: 0px;
 }
-.channel-members .member .member-activity strong {
+.channel-members .member .member-activity strong { /*<*>*/
 	font-weight: 900;
 	color: var(--main-color);
 }
-.private-channels .channel .channel-activity strong {
+.private-channels .channel .channel-activity strong { /*<*>*/
 	font-weight: 900;
 	color: var(--main-color);
 }
@@ -3187,7 +3188,7 @@ div#bd-pub-button:hover {
 	-webkit-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
-#voice-connection .btn-group {
+#voice-connection .btn-group { /*<*>*/
 	margin-right: -10px;
 }
 #friends .friends-header .tab-bar .tab-bar-item.selected {
@@ -7511,10 +7512,12 @@ img::before {
 .theme-light .guilds-wrapper{
 	background: rgba(0, 0, 0, 0) !important;
 }
-.theme-light .account .btn-group,
-.theme-light #voice-connection .btn-group {
+.theme-light .account .btn-group{
 	background: rgba(0, 0, 0, 0.4) !important;
 	margin-right: 5px; /*<*>*/
+}
+.theme-light #voice-connection .btn-group {
+
 }
 .theme-light .channels-wrap,
 .theme-light .private-channels .search-bar input {
