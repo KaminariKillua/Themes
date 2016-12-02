@@ -1,4 +1,4 @@
-.theme-light .account::after {
+.account::after {
 	content: "Glacial Prison v2.0";
 	color: #fff;
 	font-size: 11px;
@@ -1256,7 +1256,7 @@ textarea {
 }
 .theme-light .guilds { /*SERVERS*/
 	padding-top: 20px !important;
-	margin-top: 58%;
+	margin-top: 80%;
 	margin-bottom: 130%;
 	background-color: rgba(0, 0, 0, 0.4);
 	border-top-right-radius: 15px;
@@ -1283,14 +1283,11 @@ span.channel-name { /*CHANNEL NAME COLOUR*/
 	border-top-left-radius: 5px !important;
 	border-top-right-radius: 5px !important;
 	margin-top: 1.6vh;
-	margin-left: -8vh !important;
+	margin-left: -6vh !important;
 	margin-bottom: 2.5vh;
 	height: 8vh;
 	width: auto;
 	-webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
-}
-.theme-light .account .btn-settings::after {
-	background-image: none !important;
 }
 #user-profile-modal .header {/*LARGE POPOUT HEADER*/
 	background-size: cover !important;
@@ -1326,7 +1323,7 @@ span.channel-name { /*CHANNEL NAME COLOUR*/
 .new-messages-bar button {
 	background-color: #3b3b3b !Important;
 	color: #216bc0 !important;
-	margin-top: 13px !important;
+	margin-top: 13px !imp;
 }
 span.bot-tag {
 	background-color: #666666 !important;
@@ -1511,7 +1508,7 @@ span.bot-tag {
 	margin-top: 5px;
 	color: #AFAFAF !important;
 }
-.chat > .content .messages .message-group:not(.has-divider) {
+.chat >. content .messages .message-group:not(.has-divider) {
 	border-bottom-color: hsla(0, 0%, 100%, .04) !important;
 }
 .highlight:hover,
@@ -1691,12 +1688,12 @@ span.bot-tag {
 	width: 176px;
 	margin-left: -46px;
 }
-.bd-minimal .theme-light .account .avatar-small {
+.bd-minimal .account .avatar-small {
 	display: block !important;
 	margin-left: 5px;
 }
-.bd-minimal .theme-light .account .username,
-.bd-minimal .theme-light .account .discriminator {
+.bd-minimal .account .username,
+.bd-minimal .account .discriminator {
 	display: none;
 }
 .bd-minimal .theme-light .account .btn-group .btn {
@@ -3901,8 +3898,11 @@ progress {
 progress::-webkit-progress-value {
 	background: var(--main-color) !important;
 }
-.radio-theme label {
+.theme-light .radio-theme label {
 	border-color: #333539;
+}
+.theme-light .radio-theme input[type=radio]:checked~label {
+	border-color: var(--main-color);
 }
 #friends .friends-table .friends-row .friends-column-guilds .avatar-small {
 	background-color: transparent;
@@ -4761,7 +4761,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {
 #searchBarInner>.buttonClose:last-child {
 	margin: 0 5px 0 10px;
 }
-.theme-light .account .discriminator {
+..theme-light account .discriminator {
 	color: #fff !important;
 	border: none !important;
 	padding: 3px;
@@ -7489,9 +7489,6 @@ img::before {
 .radio-theme.dark::after {
 	content: "Dark Version";
 }
-.radio-theme.light::after {
-	content: "Light Version";
-}
 .radio-theme.dark::before {
 	content: "";
 	position: absolute;
@@ -7500,6 +7497,7 @@ img::before {
 	bottom: 4px;
 	right: 10px;
 	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.5);
 	pointer-events: none;
 }
 
@@ -7507,9 +7505,11 @@ img::before {
 .theme-light #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
 	background: rgba(0, 0, 0, 0.1) !important;
 }
-.theme-light .guilds-wrapper,
 .theme-light .channel-members h2 {
 	background: rgba(0, 0, 0, 0.1) !important;
+}
+.theme-light .guilds-wrapper{
+	background: rgba(0, 0, 0, 0) !important;
 }
 .theme-light .account .btn-group,
 .theme-light #voice-connection .btn-group {
@@ -7548,6 +7548,7 @@ img::before {
 	background-color: rgba(0, 0, 0, 0.3) !important;
 	border-right: 1px solid transparent;
 	margin-left: 2vh !important;
+	margin-top: 63px;
 	margin-bottom: 0.1vh;
 	-webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%);
 }
@@ -7585,7 +7586,7 @@ img::before {
 	color: hsla(0, 0%, 100%, .5);
 }
 
-.theme-light .message-group .comment .markup[style*="rgb(46, 49, 54)"] {
+.theme-light .message-group .comment .markup[style*="rgb(46, 49, 54)"], {
 	color: rgba(255, 255, 255, 0.8) !important;
 }
 .theme-light .chat .title-wrap .topic::before {
