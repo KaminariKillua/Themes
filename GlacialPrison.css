@@ -1,5 +1,5 @@
 :root {
-	--version-content: "1.0";
+	--version-content: "2.0";
 }
 .theme-light .account::after {
 	content: var(--version-content);
