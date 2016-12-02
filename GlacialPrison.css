@@ -1,6 +1,5 @@
-var version = "Glacial Prison v2.0";
 .theme-light .account::after {
-	content: version;
+	content: var(--version-content);
 	color: #fff;
 	font-size: 11px;
 	font-weight: 700;
