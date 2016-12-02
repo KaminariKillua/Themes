@@ -1,3 +1,6 @@
+:root {
+	--version-content: "1.0";
+}
 .theme-light .account::after {
 	color: #fff;
 	font-size: 11px;
