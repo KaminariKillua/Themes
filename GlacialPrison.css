@@ -1,3 +1,9 @@
+.dummyclass {
+	display:none;
+}
+:root {
+	--version-content: "1.0";
+}
 .theme-light .account::after {
 	content: var(--version-content);
 	color: #fff;
