@@ -1,2 +1,2 @@
 # Themes
-Themes for the BetterDiscord Discord add-on
+There's nothing here!
