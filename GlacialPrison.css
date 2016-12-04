@@ -1275,7 +1275,7 @@ textarea {
 	padding-top: 15px !important;
 }
 span.channel-name { /*CHANNEL NAME COLOUR*/
-	color: #ccffff !important;
+	color: var(--channel-color) !important;
 }
 
 .theme-light .account { /*ACCOUNT BOX*/
@@ -1918,7 +1918,7 @@ a:link {
 	background-color: var(--hover-color);
 }
 .channel-members h2 {
-	color: #ccffff  !important;
+	color: var(--channel-color)  !important;
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: .08em;
