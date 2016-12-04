@@ -1,0 +1,43 @@
+﻿//META{"name":"Glacial_Prison","description":"A cold and icy theme that fades like freshly fallen snow. Customizable: Colors, Profile Headers, Background & DM Images. </br> <i>Based on <a href='https://github.com/Zerthox/ClearVision/tree/master/themes' target='_new'>ClearVision</a> by <a href='https://github.com/Zerthox' target='_new'>@Zerthox</a> & <a href='https://github.com/denBot/Cyan-Firewatch' target='_new'>Cyan Firewatch</a> by <a href='https://github.com/denBot' target='_new'>@denBot</a></i> <span style='position: absolute; bottom: 0; left: 0;'>Sources: <b><a href='https://imgur.com/user/stefigraphics' target='_new'>Background</a></b> | <b><a href='https://p1-2004gsb.deviantart.com/' target='_new'>DM Image</a></b> | <b><a href='http://bulbapedia.bulbagarden.net/wiki/Location_preview' target='_new'>Profile Header</a></b></span>  <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/KaminariKillua' target='_new'>@Raijū</a></b></span>","author":"<a href='https://github.com/KaminariKillua' target='_new'>@Raijū</a>","version":"-latest"}*//{}
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://gitcdn.xyz/repo/KaminariKillua/Themes/master/GlacialPrison.min.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE DISCORDS THEME TO LIGHT THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
+IMPORTANT: Links must be HTTPS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/* ============== CUSTOMIZABLE COLORS =============== */
+:root {
+	--main-color: #2780e6;
+	--hover-color: #1f66b8;
+	--channel-color: #ccffff;
+}
+/* ========= CUSTOMIZABLE BACKGROUND IMAGE ========== */
+body::after,
+.callout-backdrop,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash{
+	background-image: url(https://i.imgur.com/7SbtKvw.png) !important; /* IMPORTANT: For best result, use wallpaper dimensions */
+}
+/* ========= CUSTOMIZABLE DM IMAGE========== */
+.guilds-wrapper .guilds .friends-icon::after {
+	background-image: url(https://orig03.deviantart.net/6320/f/2008/017/5/d/fractal___ice_hex_animated_by_p1_2004gsb.gif) !important; /* IMPORTANT: For best result, use even dimensions */
+}
+/* ========= CUSTOMIZABLE PROFILE HEADERS========== */
+/*SMALL HEADER*/
+.theme-light .user-popout header.header {
+	background: transparent !important;
+	background-size: cover !important;
+	background-image: url(https://puu.sh/sAO0x/fdecb6c24b.png) !important;
+}
+/*LARGE HEADER*/
+#user-profile-modal .header {
+	background-image: url(https://puu.sh/sAO0x/fdecb6c24b.png) !important;
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
