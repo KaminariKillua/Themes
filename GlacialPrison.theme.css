@@ -12,6 +12,7 @@ IMPORTANT: Links must be HTTPS!
 :root {
 	--main-color: #2780e6;
 	--hover-color: #1e63b3;
+	--channel-color: #ccffff;
 }
 /* ========= CUSTOMIZABLE BACKGROUND IMAGE ========== */
 body::after,
