@@ -1,4 +1,4 @@
-﻿.account::after {
+.account::after {
 	content: "Glacial Prison v2.0";
 	color: #fff;
 	font-size: 11px;
@@ -27,7 +27,7 @@ body::after {
 }
 
 /*<*>*/
-/* Alert made by BeardDesign and Omniscient, modified by Raijū */
+/* Alert made by BeardDesign and Omniscient, modified by Raiju */
 /*ALERT*/
 .tutorial-indicators+.theme-dark:before {
   content: "You need to have the light mode enabled for this theme to work properly. To enable it, go into settings > appearance.";
@@ -546,7 +546,7 @@ a:hover,
 	text-shadow: 0 0 1px;
 }
 
-/* BASE CSS BY OMNISCIENT & HAMMOCK & ZERTHOX (EDITED BY Raijū) */
+/* BASE CSS BY OMNISCIENT & HAMMOCK & ZERTHOX (EDITED BY Raiju) */
 
 .app {
 	background: transparent;
@@ -4744,7 +4744,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {
 	position: relative;
 }
 .change-log .footer::after {
-	content: "BetterDiscord by Jiiks \2022  Glacial Prison by Raijū";
+	content: "BetterDiscord by Jiiks \2022  Glacial Prison by Raiju";
 	position: absolute;
 	top: 0;
 	left: 0;
