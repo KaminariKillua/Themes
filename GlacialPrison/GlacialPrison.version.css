@@ -1,1 +1,6 @@
 /*DEPRECATED*/
+
+/*UPGRADE NOTIFICATION*/
+body:before {
+	content: "Your theme is not up-to-date, please re-download from BetterDiscord";
+}
