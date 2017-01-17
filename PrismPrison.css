@@ -1,4 +1,47 @@
+:root{
+    --current-version: "2.3";
+}
+
+/*POPUP*/
+body:before {
+	content: "Current version: v" var(--current-version);
+	z-index: 1000000000000000000000000;
+	color: #fff;
+	background: var(--main-color);
+	top: 0px;
+	left: 50%;
+	position: absolute;
+	border-radius: 5px;
+	padding: 5px 15px;
+	-webkit-transform: translate(-50%, -100%);
+	transform: translate(-50%, -100%);
+	-webkit-animation: version 3s ease;
+	animation: version 3s ease;
+	-webkit-animation-delay: 4s;
+	animation-delay: 4s;
+}
+
+@-webkit-keyframes version {
+	from {
+		-webkit-transform: translate(-50%, -100%);
+		transform: translate(-50%, -100%);
+	}
+	20% {
+		-webkit-transform: translate(-50%, 20%);
+		transform: translate(-50%, 20%)
+	}
+	80% {
+		-webkit-transform: translate(-50%, 20%);
+		transform: translate(-50%, 20%)
+	}
+	to {
+		-webkit-transform: translate(-50%, -100%);
+		transform: translate(-50%, -100%);
+	}
+}
+
 .account::after {
+    content: "Glacial Prison v" var(--current-version);
 	color: #fff;
 	font-size: 11px;
 	font-weight: 700;
