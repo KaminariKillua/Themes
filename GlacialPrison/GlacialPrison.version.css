@@ -1,3 +1,7 @@
+:root {
+	--theme-version: "2.3";
+}
+
 .account::after {
-	content: "Glacial Prison v2.2";
+	content: "Glacial Prison v" var(--theme-version);
 }
