@@ -1375,6 +1375,13 @@ span.bot-tag {
 }
 /*FRIENDS*/
 
+/*EMOJI*/
+.emoji{
+    width: 50px !important;
+    height: 50px !important;
+}
+/*EMOJI*/
+
 /*PRIVATE*/
 .private-channels .scroller {
 	background-color: rgba(0, 0, 0, 0.3) !important;
