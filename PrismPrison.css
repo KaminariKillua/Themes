@@ -1,5 +1,5 @@
 :root{
-    --current-version: "2.4";
+    --current-version: "2.6";
 }
 
 /*Version Pop-up*/
@@ -126,7 +126,7 @@ body::after {
 
 
 .radio-theme.light:after {
-  content: "ENABLE LIGHT MODE";
+  content: "LIGHT MODE ENABLED"; /*ENABLE LIGHT MODE*/ /*TEMP FIX*/
   display: block;
   color: #fff;
   -webkit-transform: translate(-50%, -32px);
