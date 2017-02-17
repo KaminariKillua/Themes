@@ -1319,7 +1319,9 @@ textarea {
 span.channel-name { /*CHANNEL NAME COLOUR*/
 	color: var(--channel-color) !important;
 }
-
+.layers {  /*VISIBLE BACKGROUND*/
+    background: transparent !important; 
+}
 .theme-light .account { /*ACCOUNT BOX*/
 	background-color: rgba(0, 0, 0, 0.3) !important;
 	border-top-left-radius: 5px !important;
