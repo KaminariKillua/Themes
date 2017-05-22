@@ -1,5 +1,5 @@
 :root{
-    --current-version: "3.0-B";
+    --current-version: "3.0-B2";
 }
 
 /*Version Pop-up*/
@@ -115,101 +115,36 @@ body::after,
 }
 /*ALERT*/
 
-/*SWAP BUTTON*/
-.radio-theme input[type=radio]:checked~label {
-  border-color: transparent;
-	background: #19ce69;
-	box-shadow: 0 2px 8px 0 transparent;
-}
-
-.radio-theme.light label {
-  width: 506px;
-  height: 55px;
-  border: 0px!important
-}
-
-.theme-dark+span .radio-theme.light label {
-  background: #F04747;
-  box-shadow: 0 2px 10px rgba(240, 71, 71, .3);
-}
-
-
-.radio-theme.light:after {
-  content: "LIGHT MODE ENABLED"; /*ENABLE LIGHT MODE*/ /*TEMP FIX*/
-  display: block;
-  color: #fff;
-  -webkit-transform: translate(-50%, -32px);
-		  transform: translate(-50%, -32px);
-  position: absolute;
-  left: 50%;
-  font-weight: 800;
-  pointer-events: none;
-   top: 60px;
-}
-
-.theme-light+span .radio-theme.light:after {
-  content: "LIGHT MODE ENABLED";
-	top: 60px;
-}
-
-.radio-theme.dark {
-  display: none;
-}
-/*SWAP BUTTON*/
-
 /*INDICATOR*/
-div[data-reactroot]:not(.platform-osx):not(.platform-win) .theme-dark+span .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(8),
-div.platform-win .theme-dark+span .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(9),
-div.platform-osx .theme-dark+span .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(9) {
-	box-shadow: 0 2px 25px var(--main-color);
-	border: 3px solid var(--main-color);
-	width: 88px;
-	border-radius: 5px;
-	left: 10px;
-
+.theme-dark .ui-tab-bar-item:nth-of-type(16),
+.theme-dark div.platform-osx .ui-tab-bar-item:nth-of-type(17),
+.theme-dark div.platform-win .ui-tab-bar-item:nth-of-type(17) {
+	color: #fff !important;
+	animation: tab-pulse 1.5s infinite, FColorPulse 1.5s infinite;
+}
+@-webkit-keyframes FColorPulse {
+	0% {
+		background: var(--hover-color);
+	}
+	50% {
+		background: var(--main-color);
+	}
+	100% {
+		background: var(--hover-color);
+	}
+}
+@keyframes tab-pulse {
+	0% {
+		box-shadow: 0 0 0 0 var(--main-color);
+	}
+	70% {
+		box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0);
+	}
+	to {
+		box-shadow: 0 0 0 0 rgba(241, 71, 71, 0);
+	}
 }
 /*INDICATOR*/
-
-/*SETTINGS BOX*/
-.theme-dark .account .btn-settings {
-	position: fixed;
-	width: 256px;
-	height: 31px;
-	border-radius: 3px;
-	font-size: 20px;
-	box-shadow: 0 2px 10px var(--main-color) !important;
-	border: 3px solid var(--main-color);
-	top: 60%;
-	left: 50%;
-	margin-left: -124px;
-	z-index: 1000;
-}
-.theme-dark .account .btn-deafen, .theme-dark .account .btn-mute {
-	border-right: 1px solid transparent;
-	display: none;
-}
-.theme-dark .account .btn-settings:after {
-	z-index: 1000;
-	position: absolute;
-	opacity: 1;
-}
-.theme-dark .account .btn:after {
-	content: "CLICK ME FOR SETTINGS";
-	display: block;
-	color: #fff;
-	background: #121213;
-	opacity: 1;
-	z-index: 1003;
-}
-.theme-dark .account {
-	height: 0px;
-	margin-bottom: -30px;
-}
-.theme-dark .account .btn-settings:hover::after {
-		-webkit-animation: load8 0s infinite linear;
-	animation: load8 0s infinite linear;
-}
-/*SETTINGS BOX*/
 
 /*NEW DISCORD BG*/
 .layers, .layer { 
@@ -753,49 +688,62 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
 	color: #fff;
 	background-color: var(--main-color) !important;
 }
-.tooltip.tooltip-left::after {
-	position: absolute;
-	left: 100%;
-	top: 50%;
-	border-left-color: var(--main-color);
-	margin-top: -5px;
-}
-.tooltip.tooltip-right::after {
-	position: absolute;
-	right: 100%;
-	top: 50%;
-	border-right-color: var(--main-color);
-	margin-top: -5px;
-}
+/* TOOLTIP */
 .tooltip {
-	position: absolute;
-	background-color: var(--main-color);
-	-webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, .1);
-	box-shadow: 0 2px 4px 1px rgba(0, 0, 0, .1);
-	border-radius: 3px;
-	font-weight: 600;
-	font-size: 12px;
-	color: #fff;
-	z-index: 1002;
-	max-width: 160px;
-	box-sizing: border-box;
-	word-wrap: break-word;
-	padding: 5px 10px;
+    color: #e0e0e0;
 }
-.tooltip.tooltip-bottom::after {
-	position: absolute;
-	bottom: 100%;
-	left: 50%;
-	border-bottom-color: var(--main-color);
-	margin-left: -5px;
+.tooltip,
+.tooltip.tooltip-error {
+    position: absolute;
+    background-color: var(--main-color);
+    -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    z-index: 1002;
+    max-width: 160px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    padding: 5px 10px;
 }
-.tooltip.tooltip-top::after {
-	position: absolute;
-	top: 100%;
-	left: 50%;
-	margin-left: -5px;
-	border-top-color: var(--main-color);
+.tooltip::after {
+
 }
+.tooltip.tooltip-top::after,
+.tooltip.tooltip-top.tooltip-error::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-top-color: var(--main-color) !important;
+}
+.tooltip.tooltip-right::after,
+.tooltip.tooltip-right.tooltip-error::after {
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    border-right-color: var(--main-color) !important;;
+    margin-top: -5px;
+}
+.tooltip.tooltip-bottom::after,
+.tooltip.tooltip-bottom.tooltip-error::after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    border-bottom-color: var(--main-color) !important;;
+    margin-left: -5px;
+}
+.tooltip.tooltip-left::after,
+.tooltip.tooltip-left.tooltip-error::after {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    border-left-color: var(--main-color) !important;;
+    margin-top: -5px;
+}
+
 .region-select-modal {
 	background: rgba(0, 0, 0, 0.75);
 }
@@ -6562,6 +6510,10 @@ img::before {
 	-webkit-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
+#friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+	background-color: var(--main-color) !important;
+	color:#fff !important;
+}
 #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected),
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
 	background-color: rgba(0, 0, 0, 0.29);
@@ -8046,7 +7998,7 @@ img::before {
     box-shadow: 0 0 3px var(--main-color);
 }
 .input::-webkit-input-placeholder {
-    color: hsla(0, 0%, 100%, .3) !important;.
+    color: hsla(0, 0%, 100%, .3) !important;
 }
 .ui-input-button {
     background-color: rgba(0, 0, 0, 0.3) !important;
@@ -8309,6 +8261,57 @@ img::before {
 .ui-permission-override-box.passthrough.selected {
     background-color: hsla(0, 0%, 50%, .3) !important;
 }
+/* BD BLUE FIX */
+.bd-blue #instant-invite-modal .copy,
+.bd-blue #oauth2-authorize .scope-bot .avatar-large,
+.bd-blue #overlay-wrapper .overlay .guild-panel .guild-panel-header,
+.bd-blue #settings-roles .roles li.selected::before, .bd-blue #unsupported-browser li:hover .btn,
+.bd-blue #user-profile-modal .btn,
+.bd-blue #user-profile-modal .guilds .avatar-large,
+.bd-blue .avatar-uploader-inner,
+.bd-blue .btn-filled, .bd-blue .button,
+.bd-blue .change-log .changelog-button .cta,
+.bd-blue .change-log .changelog-fixed,
+.bd-blue .channel-members .invite-btn,
+.bd-blue .channel-textarea-guard button,
+.bd-blue .chat .new-messages-bar:hover,
+.bd-blue .checkbox .checkbox-inner input[type=checkbox]:checked + span,
+.bd-blue .detected-platform-accounts-modal .btn-group .btn-primary,
+.bd-blue .download-apps .platforms .platform.active .download-button,
+.bd-blue .emoji-picker .premium-promo .btn,
+.bd-blue .guild-channels .channel-text.unread:not(.selected):not(.channel-muted).selected::before,
+.bd-blue .guild-channels .channel-voice-states li.speaking .avatar-small,
+.bd-blue .invite-banner,
+.bd-blue .invite-header .invite-guild-icon,
+.bd-blue .invite-mobile .link.purple,
+.bd-blue .invite-mobile .top,
+.bd-blue .invite-modal .avatar-xxxlarge,
+.bd-blue .mention:hover,
+.bd-blue .modal-new-user .steps-wrap .steps li.active,
+.bd-blue .modal-new-user .steps-wrap .steps li.on::before,
+.bd-blue .need-help-modal .header,
+.bd-blue .overlay-user-popout .user-popout-options .btn,
+.bd-blue .premium-payment-modal,
+.bd-blue .premium-payment-modal .premium-payment-button .spinner .spinner-item,
+.bd-blue .private-channel-recipients-invite .footer button,
+.bd-blue .private-channel-recipients-invite .footer button:disabled:hover,
+.bd-blue .progress .progress-bar,
+.bd-blue .react-datepicker .react-datepicker__day.react-datepicker__day--today::after,
+.bd-blue .react-datepicker .react-datepicker__day:hover,
+.bd-blue .region-select-flag, .bd-blue .region-select:hover button,
+.bd-blue .search-popout .date-picker .date-picker-hint .hint-value,
+.bd-blue .spinner-chasing-dots .ui-spinner-item,
+.bd-blue .spinner-wandering-cubes .ui-spinner-item,
+.bd-blue .tooltip, .bd-blue .tooltip.tooltip-right:after, .bd-blue .ui-button.brand .ui-spinner-item,
+.bd-blue .ui-button.brand.filled, .bd-blue .ui-button.brand.filled:disabled,
+.bd-blue .ui-button.brand.outlined:active,
+.bd-blue .ui-scroller-wrap .scrollbar .thumb::after,
+.bd-blue .upload-modal,
+.bd-blue .verify-connected-account .btn,
+.bd-blue .ui-slider .slider-bar-fill, .user-settings-voice .input-sensitivity-toggle.manual .slider-bar-fill,
+.bd-blue #friends .btn {
+    background-color: var(--main-color);
+}
 
 /* BD SETTINGS */
 .bda-slist li {
@@ -8351,7 +8354,6 @@ img::before {
 .ui-standard-sidebar-view .bda-slist .bda-description {
     border-color: hsla(0, 0%, 100%, .1) !important;
 }
-
 /* CUSTOM CSS CONTAINER */
 .CodeMirror {
     background-color: rgba(0, 0, 0, 0.3) !important;
