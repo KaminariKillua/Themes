@@ -13,8 +13,8 @@ IMPORTANT: Links must be HTTPS!
 	--main-color: #e62727;
 	--hover-color: #b81f1f;
 	--channel-color: #ffcccc;
-   	--background-blur: 0px;
-    	--background-brightness: 100%;
+	--background-blur: 0px;
+	--background-brightness: 100%;
 }
 /* ========= CUSTOMIZABLE BACKGROUND IMAGE ========== */
 body::after,
