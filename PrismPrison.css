@@ -1,5 +1,5 @@
 :root{
-    --current-version: "3.0-B2";
+    --current-version: "3.0";
 }
 
 /*Version Pop-up*/
@@ -1277,11 +1277,11 @@ textarea {
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	border-right: 4px solid rgba(0, 0, 0, 0.2);
-	-webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 7%, rgba(0, 0, 0, 1) 94%, rgba(0, 0, 0, 0) 100%);
+	-webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 7%, rgba(0, 0, 0, 1) 93%, rgba(0, 0, 0, 0) 100%);
 } 
 .theme-light .guilds-wrapper {
     margin-top: 90px;
-    margin-bottom: 98px;
+    margin-bottom: 100px;
 }
 .channel-textarea-inner { /*TEXTBOX*/
 	background-color: rgba(0, 0, 0, 0.3) !important;
@@ -8274,7 +8274,7 @@ img::before {
 .bd-blue .change-log .changelog-fixed,
 .bd-blue .channel-members .invite-btn,
 .bd-blue .channel-textarea-guard button,
-.bd-blue .chat .new-messages-bar:hover,
+.bd-blue .chat .new-messages-bar:hover, .bd-blue .chat .divider,
 .bd-blue .checkbox .checkbox-inner input[type=checkbox]:checked + span,
 .bd-blue .detected-platform-accounts-modal .btn-group .btn-primary,
 .bd-blue .download-apps .platforms .platform.active .download-button,
@@ -8302,7 +8302,7 @@ img::before {
 .bd-blue .search-popout .date-picker .date-picker-hint .hint-value,
 .bd-blue .spinner-chasing-dots .ui-spinner-item,
 .bd-blue .spinner-wandering-cubes .ui-spinner-item,
-.bd-blue .tooltip, .bd-blue .tooltip.tooltip-right:after, .bd-blue .ui-button.brand .ui-spinner-item,
+.bd-blue .tooltip, .bd-blue .ui-button.brand .ui-spinner-item,
 .bd-blue .ui-button.brand.filled, .bd-blue .ui-button.brand.filled:disabled,
 .bd-blue .ui-button.brand.outlined:active,
 .bd-blue .ui-scroller-wrap .scrollbar .thumb::after,
@@ -8989,11 +8989,12 @@ img::before {
 .quickswitcher .big-input {
     background: rgba(0, 0, 0, 0.3) !important;
     box-shadow: none !important;
+    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 7%, rgba(0, 0, 0, 1) 93%, rgba(0, 0, 0, 0) 100%);
 }
 .quickswitcher .big-input::-webkit-input-placeholder {
     color: hsla(0, 0%, 100%, .3) !important;
 }
-.quickswitcher .scroller-wrap::before {
+.quickswitcher .ui-scroller-wrap::before {
     display: none;
 }
 .quickswitcher-container .quickswitcher .scroller-wrap .scroller::-webkit-scrollbar-thumb {
