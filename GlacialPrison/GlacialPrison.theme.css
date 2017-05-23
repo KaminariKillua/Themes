@@ -13,8 +13,8 @@ IMPORTANT: Links must be HTTPS!
 	--main-color: #2780e6;
 	--hover-color: #1f66b8;
 	--channel-color: #ccffff;
-    --background-blur: 0px;
-    --background-brightness: 100%;
+    	--background-blur: 0px;
+    	--background-brightness: 100%;
 }
 /* ========= CUSTOMIZABLE BACKGROUND IMAGE ========== */
 body::after,
@@ -34,15 +34,10 @@ body::after,
 .guilds-wrapper .guilds .friends-icon::after {
 	background-image: url(https://orig03.deviantart.net/6320/f/2008/017/5/d/fractal___ice_hex_animated_by_p1_2004gsb.gif) !important; /* IMPORTANT: For best result, use even dimensions */
 }
-/* ========= CUSTOMIZABLE PROFILE HEADERS========== */
-/*SMALL HEADER*/
-.theme-light .user-popout header.header {
+/* ========= CUSTOMIZABLE PROFILE HEADER========== */
+.theme-light .user-popout header.header, #user-profile-modal .header {
 	background: transparent !important;
 	background-size: cover !important;
-	background-image: url(https://puu.sh/sAO0x/fdecb6c24b.png) !important;
-}
-/*LARGE HEADER*/
-#user-profile-modal .header {
 	background-image: url(https://puu.sh/sAO0x/fdecb6c24b.png) !important;
 }
 /*
