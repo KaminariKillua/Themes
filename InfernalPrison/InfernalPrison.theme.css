@@ -1,4 +1,4 @@
-//META{"name":"Infernal_Prison","description":"A hot and fiery theme that fades like scatterd ashes. Customizable: Colors, Profile Headers, Background & DM Images. </br> <i>Based on <a href='https://github.com/Zerthox/ClearVision/tree/master/themes' target='_new'>ClearVision</a> by <a href='https://github.com/Zerthox' target='_new'>@Zerthox</a> & <a href='https://github.com/denBot/Cyan-Firewatch' target='_new'>Cyan Firewatch</a> by <a href='https://github.com/denBot' target='_new'>@denBot</a></i> <span style='position: absolute; bottom: 0; left: 0;'>Sources: <b><a href='https://imgur.com/user/stefigraphics' target='_new'>Background</a></b> | <b><a href='https://p1-2004gsb.deviantart.com/' target='_new'>DM Image</a></b> | <b><a href='http://bulbapedia.bulbagarden.net/wiki/Location_preview' target='_new'>Profile Header</a></b></span>  <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/KaminariKillua' target='_new'>@Raiju</a></b></span>","author":"<a href='https://github.com/KaminariKillua' target='_new'>@Raiju</a>","version":"-latest"}*//{}
+//META{"name":"Infernal_Prison","description":"A hot and fiery theme that fades like scatterd ashes. Customizable: Colors, Profile Header, Background & DM Images. </br> <i>Based on <a href='https://github.com/Zerthox/ClearVision/tree/master/themes' target='_new'>ClearVision</a> by <a href='https://github.com/Zerthox' target='_new'>@Zerthox</a> & <a href='https://github.com/denBot/Cyan-Firewatch' target='_new'>Cyan Firewatch</a> by <a href='https://github.com/denBot' target='_new'>@denBot</a></i> <span style='position: absolute; bottom: 0; left: 0;'>Sources: <b><a href='https://imgur.com/user/stefigraphics' target='_new'>Background</a></b> | <b><a href='https://p1-2004gsb.deviantart.com/' target='_new'>DM Image</a></b> | <b><a href='http://bulbapedia.bulbagarden.net/wiki/Location_preview' target='_new'>Profile Header</a></b></span>  <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/KaminariKillua' target='_new'>@Raiju</a></b></span>","author":"<a href='https://github.com/KaminariKillua' target='_new'>@Raiju</a>","version":"-latest"}*//{}
 
 /* IMPORT CSS FROM GITHUB */
 @import url(https://rawgit.com/KaminariKillua/Themes/master/PrismPrison.css);
@@ -13,8 +13,8 @@ IMPORTANT: Links must be HTTPS!
 	--main-color: #e62727;
 	--hover-color: #b81f1f;
 	--channel-color: #ffcccc;
-    --background-blur: 0px;
-    --background-brightness: 100%;
+   	--background-blur: 0px;
+    	--background-brightness: 100%;
 }
 /* ========= CUSTOMIZABLE BACKGROUND IMAGE ========== */
 body::after,
@@ -34,15 +34,10 @@ body::after,
 .guilds-wrapper .guilds .friends-icon::after {
 	background-image: url(https://puu.sh/sDTyr/6c5abd7d78.gif) !important; /* IMPORTANT: For best result, use even dimensions */
 }
-/* ========= CUSTOMIZABLE PROFILE HEADERS========== */
-/*SMALL HEADER*/
-.theme-light .user-popout header.header {
+/* ========= CUSTOMIZABLE PROFILE HEADER========== */
+.theme-light .user-popout header.header, #user-profile-modal .header {
 	background: transparent !important;
 	background-size: cover !important;
-	background-image: url(https://puu.sh/sDUDL/78da3a2546.png) !important;
-}
-/*LARGE HEADER*/
-#user-profile-modal .header {
 	background-image: url(https://puu.sh/sDUDL/78da3a2546.png) !important;
 }
 /*
