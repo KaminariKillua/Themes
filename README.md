@@ -1,4 +1,13 @@
 # Themes
 
-1. Glacial Prison
-2. Infernal Prison
+Version 4.0 has been released!
+Basically everything is custom now, except for some cases where the original would look best (e.g. the Discord Nitro banner).
+
+There are currently 3 themes:
+
+1. Glacial Prison - Blue/Cold themed
+2. Infernal Prison - Red/Hot themed
+3. Sakura Prison - Light Coral/Calm themed [WIP]
+
+Thanks for using my theme(s)!
+If you have any questions, please shoot me a friend request at @Raijū#7334.
