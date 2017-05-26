@@ -9,5 +9,8 @@ There are currently 3 themes:
 2. Infernal Prison - Red/Hot themed
 3. Sakura Prison - Light Coral/Calm themed [WIP]
 
+Of course, these are just presets. 
+You can give any theme your own creative twist by changing the provided variables!
+
 Thanks for using my theme(s)!
 If you have any questions, please shoot me a friend request at @Raijū#7334.
