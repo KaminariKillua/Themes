@@ -7,7 +7,7 @@ There are currently 3 themes:
 
 1. Glacial Prison - Blue/Cold themed
 2. Infernal Prison - Red/Hot themed
-3. Sakura Prison - Light Coral/Calm themed [WIP]
+3. Sakura Prison - Light Coral/Calm themed
 
 Of course, these are just presets. 
 You can give any theme your own creative twist by changing the provided variables!
