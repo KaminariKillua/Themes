@@ -12,7 +12,7 @@ There are currently 3 themes:
 Of course, these are just presets. 
 You can give any theme your own creative twist by changing the provided variables!
 
-If your theme look out of the ordinary, it is likely that Discord overhauled its default look.
+If your theme looks out of the ordinary, it is likely that Discord overhauled its default look.
 I'll try to fix the problem at hand as soon as possible, so sit tight :)
 
 Thanks for using my theme(s)!
