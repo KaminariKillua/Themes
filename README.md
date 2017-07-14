@@ -1,7 +1,7 @@
 # Themes
 
-Version 4.0 has been released!
-Basically everything is custom now, except for some cases where the original would look best (e.g. the Discord Nitro banner).
+Version 5.0 has been released!
+All changes made by Discord in their 2-year-update have been accounted for!
 
 There are currently 3 themes:
 
