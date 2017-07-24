@@ -1,7 +1,7 @@
 # Themes
 
-Version 5.0 has been released!
-All changes made by Discord in their 2-year-update have been accounted for!
+Version 5.1 has been released!
+The chatbar+emojis that were broken with Discord's update have been fixed.
 
 There are currently 3 themes:
 
@@ -17,3 +17,5 @@ I'll try to fix the problem at hand as soon as possible, so sit tight :)
 
 Thanks for using my theme(s)!
 If you have any questions, please shoot me a friend request at @Raijū#7334.
+
+# NOTE: The themes only work on Light Mode!
