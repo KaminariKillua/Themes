@@ -1,7 +1,11 @@
 # Themes
 
-Version 5.1 has been released!
-The chatbar+emojis that were broken with Discord's update have been fixed.
+Version 6.0 has been released!
+* Fixed some minor glitches
+* Fixed the Profile Modal
+* Added support for the LINE Stickers & QuickSave plugins
+* Added support for Discord's Video Calls
+* Fixed BetterDiscord's settings sliders
 
 There are currently 3 themes:
 
