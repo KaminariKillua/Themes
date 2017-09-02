@@ -1,7 +1,7 @@
 //META{"name":"Glacial_Prison","description":"A cold and icy theme that fades like freshly fallen snow. Customizable: Colors, Profile Header, Background & DM Images. Based on ClearVision by Zerthox, Cyan Firewatch by denBot and Quiet by Omniscient. [|] Sources: Background - http://imgur.com/gallery/7SbtKvw [|] DM Image - http://p1-2004gsb.deviantart.com/art/Fractal-Ice-Hex-Animated-74873419 [|] Profile Header - http://bulbapedia.bulbagarden.net/wiki/Ice_Path [|] By: @Raiju#7334 - https://github.com/KaminariKillua/Themes","author":"Raiju","version":"-latest"}*//{}
 
 /* IMPORT CSS FROM GITHUB */
-@import url(https://rawgit.com/KaminariKillua/Themes/master/PrismPrison.6.css);
+@import url(https://rawgit.com/KaminariKillua/Themes/master/PrismPrison.4.css);
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 IMPORTANT: CHANGE DISCORDS THEME TO LIGHT THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
@@ -40,12 +40,11 @@ body::after,
 }	/* ORIGINAL: https://puu.sh/w1y3a/7e878418b3.gif (in case you want to change it back) */
 
 /* ========== CUSTOMIZABLE PROFILE HEADER ========== */
-.theme-light .user-popout header.header, #user-profile-modal .header,
-.headerNormal-1cioxU, .bd-blue .headerNormal-1cioxU {
+.theme-light .user-popout header.header, #user-profile-modal .header {
 	background: transparent !important;
 	background-size: cover !important;
 	background-image: url(https://puu.sh/sAO0x/fdecb6c24b.png) !important;
 }	/* ORIGINAL: https://puu.sh/sAO0x/fdecb6c24b.png (in case you want to change it back) */
 /*
 --------------------------------------------------------------------------------------------------------------------------------------------
-*/
+*/*/
