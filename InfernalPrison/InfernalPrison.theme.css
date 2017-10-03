@@ -12,10 +12,10 @@ IMPORTANT: Links must be HTTPS!
 ---------------------------------------------------------------------------------------------------------------------------------------------
 */
 /* ========== CUSTOMIZABLE VARIABLES ========== */
-:root {
-	--main-color: #e62727;
-	--hover-color: #b81f1f;
-	--channel-color: #ffcccc;
+:root 
+	--main-color: #07ffa0;
+	--hover-color: #04d887;
+	--channel-color: #a1fcd9;
 	--background-blur: 0px;
 	--background-brightness: 100%;
 }	/* ORIGINAL: --main-color: #e62727;--hover-color: #b81f1f;--channel-color: #ffcccc;--background-blur: 0px;--background-brightness: 100%; (in case you want to change it back) */
@@ -31,12 +31,12 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label{
-	background-image: url(https://puu.sh/w1yBu/5c9dd69b92.jpg) !important; /* IMPORTANT: For best result, use wallpaper dimensions */
+	background-image: url(https://image.tmdb.org/t/p/original/2SSpN1HRVNkzXpYWswpGb73jI9a.jpg) !important; /* IMPORTANT: For best result, use wallpaper dimensions */
 }	/* ORIGINAL: https://puu.sh/w1yBu/5c9dd69b92.jpg (in case you want to change it back) */
 
 /* ========== CUSTOMIZABLE DM IMAGE ========== */
 .guilds-wrapper .guilds .friends-icon::after {
-	background-image: url(https://puu.sh/sDTyr/6c5abd7d78.gif) !important; /* IMPORTANT: For best result, use even dimensions */
+	background-image: url(https://vignette.wikia.nocookie.net/glee/images/3/3d/Is_that_even_legal_blaine.gif) !important; /* IMPORTANT: For best result, use even dimensions */
 }	/* ORIGINAL: https://puu.sh/sDTyr/6c5abd7d78.gif (in case you want to change it back) */
 
 /* ========== CUSTOMIZABLE PROFILE HEADER ========== */
