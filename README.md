@@ -1,5 +1,4 @@
-# Themes
-
+# Changelog
 Version 6.0 has been released!
 * Fixed some minor glitches
 * Fixed the Profile Modal
@@ -7,6 +6,7 @@ Version 6.0 has been released!
 * Added support for Discord's Video Calls
 * Fixed BetterDiscord's settings sliders
 
+# Themes
 There are currently 3 themes:
 
 1. Glacial Prison - Blue/Cold themed
@@ -22,4 +22,6 @@ I'll try to fix the problem at hand as soon as possible, so sit tight :)
 Thanks for using my theme(s)!
 If you have any questions, please shoot me a friend request at @Raijū#7334.
 
+# Description
+Customizable: Colors, Profile Header, Background & DM Images. </br>Based on <a href='https://github.com/Zerthox/ClearVision/tree/master/themes' target='_new'><i>ClearVision</i></a> by <a href='https://github.com/Zerthox' target='_new'><i>@Zerthox</i></a>, <a href='https://github.com/denBot/Cyan-Firewatch' target='_new'><i>Cyan Firewatch</i></a> by <a href='https://github.com/denBot' target='_new'><i>@denBot</a></i> <span style='position: absolute; bottom: 0; left: 0;'> & <a href='https://github.com/0mniscient/Discord-Themes/blob/master/Themes/Quiet.theme.css' target='_new'><i>Quiet</i></a> by <a href='https://github.com/0mniscient' target='_new'><i>@Omniscient</a></i> - <span style='position: absolute; bottom: 0; left: 0;'>By <b><a href='https://github.com/KaminariKillua' target='_new'>@Raiju</a></b></span>
 # NOTE: The themes only work on Light Mode!
