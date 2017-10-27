@@ -1,6 +1,6 @@
 /* NEW TITLE BAR - By intrnl, modified by Raiju*/
 :root {   
-	--titlebar-image: url(https://discordapp.com/assets/93608abbd20d90c13004925014a9fd01.svg);
+    --titlebar-image: url(https://discordapp.com/assets/93608abbd20d90c13004925014a9fd01.svg);
     --i-dtl-buttonwidth: 48px;
     --i-dtl-resizeheight: 6px;
     --i-dtl-titlebarheight: 30px;
