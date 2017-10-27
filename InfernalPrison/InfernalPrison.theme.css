@@ -1,7 +1,10 @@
-﻿//META{"name":"Infernal_Prison","description":"A hot and fiery theme that fades like scatterd ashes. Customizable: Colors, Profile Header, Background & DM Images. Based on ClearVision by Zerthox, Cyan Firewatch by denBot and Quiet by Omniscient. [|] Sources: Background - https://www.walldevil.com/wallpapers/a80/disco-wallpaper-dantes-inferno-dante-games-background-animated-wallpapers.jpg [|] DM Image - https://scratch.mit.edu/projects/754647/ [|] Profile Header - http://finalfantasy.wikia.com/wiki/Fire_Cavern [|] By: @Raiju#7334 - https://github.com/KaminariKillua/Themes","author":"Raiju","version":"-latest"}*//{}
+//META{"name":"Infernal_Prison","description":"A hot and fiery theme that fades like scatterd ashes. Customizable: Colors, Profile Header, Background, DM Image & Emoji. Based on ClearVision by Zerthox, Cyan Firewatch by denBot and Quiet by Omniscient. [|] Sources: Background - https://www.walldevil.com/wallpapers/a80/disco-wallpaper-dantes-inferno-dante-games-background-animated-wallpapers.jpg [|] DM Image - https://scratch.mit.edu/projects/754647/ [|] Profile Header - http://finalfantasy.wikia.com/wiki/Fire_Cavern [|] By: @Raiju#7334 - https://github.com/KaminariKillua/Themes","author":"Raiju","version":"-latest"}*//{}
 
 /* IMPORT CSS FROM GITHUB */
-@import url(https://rawgit.com/KaminariKillua/Themes/master/PrismPrison.6.css);
+@import url(https://rawgit.com/KaminariKillua/Themes/master/PrismPrison.7.css);
+
+/* IMPORTANT: Change '.new' to '.old' for the old titlebar */
+@import url(https://rawgit.com/KaminariKillua/Themes/master/Bars/Titlebar.new.css);
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 IMPORTANT: CHANGE DISCORDS THEME TO LIGHT THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
@@ -16,37 +19,21 @@ IMPORTANT: Links must be HTTPS!
 	--main-color: #e62727;
 	--hover-color: #b81f1f;
 	--channel-color: #ffcccc;
+	--icon-color: #fff;
+	
+	/* IMPORTANT: For best result, use wallpaper dimensions */
+	--background-image: url(https://puu.sh/w1yBu/5c9dd69b92.jpg);	
+	
+	/* IMPORTANT: For best result, use even dimensions */
+	--dm-image: url(https://puu.sh/sDTyr/6c5abd7d78.gif);	
+	
+	/* IMPORTANT: For best result, don't make it too large */
+	--profile-image: url(https://puu.sh/sDUDL/78da3a2546.png);
+	
 	--background-blur: 0px;
 	--background-brightness: 100%;
-}	/* ORIGINAL: --main-color: #e62727;--hover-color: #b81f1f;--channel-color: #ffcccc;--background-blur: 0px;--background-brightness: 100%; (in case you want to change it back) */
-
-/* ========== CUSTOMIZABLE BACKGROUND IMAGE ========== */
-body::after,
-.callout-backdrop,
-.user-popout::before,
-#user-profile-modal .header::before,
-#pubs-container::before,
-.auth-background,
-.auth-tiling-bg,
-.invite-modal .invite-splash,
-.radio-theme.light label,
-.radio-theme.dark label{
-	background-image: url(https://puu.sh/w1yBu/5c9dd69b92.jpg) !important; /* IMPORTANT: For best result, use wallpaper dimensions */
-}	/* ORIGINAL: https://puu.sh/w1yBu/5c9dd69b92.jpg (in case you want to change it back) */
-
-/* ========== CUSTOMIZABLE DM IMAGE ========== */
-.guilds-wrapper .guilds .friends-icon::after {
-	background-image: url(https://puu.sh/sDTyr/6c5abd7d78.gif) !important; /* IMPORTANT: For best result, use even dimensions */
-}	/* ORIGINAL: https://puu.sh/sDTyr/6c5abd7d78.gif (in case you want to change it back) */
-
-/* ========== CUSTOMIZABLE PROFILE HEADER ========== */
-.theme-light .user-popout header.header, #user-profile-modal .header,
-.headerNormal-1cioxU, .bd-blue .headerNormal-1cioxU {
-	background: transparent !important;
-	background-size: cover !important;
-	background-image: url(https://puu.sh/sDUDL/78da3a2546.png) !important;
-}	/* ORIGINAL: https://puu.sh/sDUDL/78da3a2546.png (in case you want to change it back) */
+	--emoji-size: 50px;
+}	/* ORIGINAL: --main-color: #e62727;--hover-color: #b81f1f;--channel-color: #ffcccc;--icon-color: #fff;--background-image: url(https://puu.sh/w1yBu/5c9dd69b92.jpg);--dm-image: url(https://puu.sh/sDTyr/6c5abd7d78.gif);--profile-image: url(https://puu.sh/sDUDL/78da3a2546.png);--background-blur: 0px;--background-brightness: 100%;--emoji-size: 50px; (in case you want to change it back) */
 /*
 --------------------------------------------------------------------------------------------------------------------------------------------
 */
-
