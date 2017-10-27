@@ -3,8 +3,8 @@
 /* IMPORT CSS FROM GITHUB */
 @import url(https://rawgit.com/KaminariKillua/Themes/master/PrismPrison.7.css);
 
-/* IMPORTANT: Change '.old' to '.new' for the new titlebar */
-@import url(https://rawgit.com/KaminariKillua/Themes/master/Bars/Titlebar.old.css);
+/* IMPORTANT: Change '.new' to '.old' for the old titlebar */
+@import url(https://rawgit.com/KaminariKillua/Themes/master/Bars/Titlebar.new.css);
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 IMPORTANT: CHANGE DISCORDS THEME TO LIGHT THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
