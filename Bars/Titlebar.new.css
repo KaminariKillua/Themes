@@ -1,56 +1,25 @@
 /* NEW TITLE BAR - By intrnl, modified by Raiju*/
-:root {
-    --i-dtl-bgcolor: #282b30;
-    
-    --i-dtl-logoimg: url(https://discordapp.com/assets/93608abbd20d90c13004925014a9fd01.svg);
-    --i-dtl-logosize: 60px 19px;
-    --i-dtl-logoopacity: .6;
-    --i-dtl-logooffset: 8px;
-    
-    --i-dtl-btnhover: rgba(255,255,255,0.1);
-    --i-dtl-btnactive: rgba(255,255,255,0.15);
-    --i-dtl-closehover: #e81123;
-    --i-dtl-closeactive: #bf0f1d;
-    
-    --i-dtl-closeimg: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg);
-    --i-dtl-maximizeimg: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/fullscreen.svg);
-    --i-dtl-minimizeimg: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg);
-    
+:root {   
+	--titlebar-image: url(https://discordapp.com/assets/93608abbd20d90c13004925014a9fd01.svg);
     --i-dtl-buttonwidth: 48px;
     --i-dtl-resizeheight: 6px;
     --i-dtl-titlebarheight: 30px;
-    
-    /* Plugin: TitleforTitlebar */
     --i-dtl-tft-offset: 75px;
     --i-dtl-tft-fontsize: 14px;
 }
-
 .titleBar-3_fDwJ .wordmark-2L03Wr {
-    background-image: var(--i-dtl-logoimg);
-    background-size: var(--i-dtl-logosize);
+    background-image: var(--titlebar-image);
+    background-size: 60px 19px;
 }
 
 .titleBar-3_fDwJ div:nth-of-type(2) {
-    background-image: var(--i-dtl-closeimg);
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg);
 }
 .titleBar-3_fDwJ div:nth-of-type(3) {
-    background-image: var(--i-dtl-maximizeimg);
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/fullscreen.svg);
 }
 .titleBar-3_fDwJ div:nth-of-type(4) {
-    background-image: var(--i-dtl-minimizeimg);
-}
-
-.titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:hover {
-    background-color: var(--i-dtl-btnhover);
-}
-.titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:active {
-    background-color: var(--i-dtl-btnactive);
-}
-.titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:hover {
-    background-color: var(--i-dtl-closehover);
-}
-.titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:active {
-    background-color: var(--i-dtl-closeactive);
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg);
 }
 
 /* TitleforTitlebar */
@@ -63,14 +32,12 @@
     font-size: var(--i-dtl-tft-fontsize);
     margin-left: var(--i-dtl-tft-offset);
 }
-
-/* Fixes */
 .auth-background,
 .auth-center,
 .auth-tiling-bg,
 .callout-backdrop,
 .upload-area {
-    margin-top: var(--i-dtl-titlebarheight);
+    margin-top: 30px;
 }
 .popout .themed-popout {
     max-height: calc(100vh - var(--i-dtl-titlebarheight) - 48px - 20px) !important;
@@ -99,7 +66,7 @@
 
 /* Titlebar */
 .titleBar-3_fDwJ {
-    background-color: var(--i-dtl-bgcolor);
+    background-color: rgba(0,0,0,0.6);
 }
 .titleBar-3_fDwJ:after {
     content: '';
@@ -123,8 +90,8 @@
     height: var(--i-dtl-titlebarheight);
     width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
     box-sizing: border-box;
-    opacity: var(--i-dtl-logoopacity);
-    background-position-x: var(--i-dtl-logooffset);
+    opacity: .6;
+    background-position-x: 8px;
     background-position-y: center;
     background-repeat: no-repeat;
 }
@@ -138,5 +105,4 @@
     background-repeat: no-repeat;
     background-size: 20px;
 }
-
 /* NEW TITLE BAR */
