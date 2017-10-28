@@ -5,7 +5,7 @@ Version 7.0 has been released!
 * Fixed Background Blur & Background Brightness modifiers.
 * Added Icon Color modifier (currently only changes some icons).
 * Added Emoji Size modifier.
-* Added an option to swap between the new and old titlebars.
+* Added an option to swap between the new and old titlebars (courtesy of intrnl).
 * Tweaks & Fixes.
 
 # Themes
