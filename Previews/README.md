@@ -6,7 +6,7 @@
 ![image 3][GP-settings]
 <br/><br/>
 
-## [Infernal Prision][IP]
+## [Infernal Prison][IP]
 
 ![image 4][IP-bar-new]
 ![image 5][IP-bar-old]
