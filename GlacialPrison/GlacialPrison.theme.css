@@ -1,39 +1,39 @@
-//META{"name":"Glacial_Prison","description":"A cold and icy theme that fades like freshly fallen snow. Customizable: Colors, Profile Header, Background, DM Image & Emoji. Based on ClearVision by Zerthox, Cyan Firewatch by denBot and Quiet by Omniscient. [|] Sources: Background - http://imgur.com/gallery/7SbtKvw [|] DM Image - http://p1-2004gsb.deviantart.com/art/Fractal-Ice-Hex-Animated-74873419 [|] Profile Header - http://bulbapedia.bulbagarden.net/wiki/Ice_Path [|] By: @Raiju#7334 - https://github.com/KaminariKillua/Themes","author":"Raiju","version":"-latest"}*//{}
+//META{"name":"Glacial_Prison","description":"A cold and icy theme that fades like freshly fallen snow. Customize the theme with your own colours, images and more! (Compatible with the LINE plugin!) - Based on ClearVision by @Zerthox, Cyan Firewatch by @denBot & Quiet by @Omniscient.","author":"Raiju","version":"-latest"}*//{}
 
 /* IMPORT CSS FROM GITHUB */
-@import url(https://rawgit.com/KaminariKillua/Themes/master/PrismPrison.7.css);
+@import url(https://rawgit.com/KaminariKillua/Themes/master/PrismPrison.8.css);
 
-/* IMPORTANT: Change '.new' to '.old' for the old titlebar */
-@import url(https://rawgit.com/KaminariKillua/Themes/master/Bars/Titlebar.new.css);
+/* IMPORTANT: Change '.old' to '.new' for the new titlebar and vice versa */
+@import url(https://rawgit.com/KaminariKillua/Themes/master/Bars/Titlebar.old.css);
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
-IMPORTANT: CHANGE DISCORDS THEME TO LIGHT THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
+IMPORTANT: Only works in Light Mode! Change your mode in Settings > Appearance.
 IMPORTANT: Links must be HTTPS!
 ---------------------------------------------------------------------------------------------------------------------------------------------
--> If your theme isn't working correctly, there is most likely a new version available.
+-> If some elements are broken, there is either: A new theme version available, or Discord has just updated.
 -> Redownload your respective theme from here: https://github.com/KaminariKillua/Themes.
+-> If you notice elements are broken for a prolonged amount of time, please shoot me a message on Discord. 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 */
 /* ========== CUSTOMIZABLE VARIABLES ========== */
 :root {
+    /* COLOURS */
 	--main-color: #2780e6;
 	--hover-color: #1f66b8;
 	--channel-color: #ccffff;
-	--icon-color: #fff;
 	
-	/* IMPORTANT: For best result, use wallpaper dimensions */
+    /* IMAGES */
 	--background-image: url(https://puu.sh/w1xZT/27dd03a07c.png);
-	
-	/* IMPORTANT: For best result, use even dimensions */
 	--dm-image: url(https://puu.sh/w1y3a/7e878418b3.gif);	
-	
-	/* IMPORTANT: For best result, don't make it too large */
 	--profile-image: url(https://puu.sh/sAO0x/fdecb6c24b.png);
-	
+    --nsfw-image: url(https://puu.sh/zbsiF/9b67596e0e.png);
+
+    /* MISC */
 	--background-blur: 0px;
 	--background-brightness: 100%;
 	--emoji-size: 50px;
-}	/* ORIGINAL: --main-color: #2780e6;--hover-color: #1f66b8;--channel-color: #ccffff;--icon-color: #fff;--background-image: url(https://puu.sh/w1xZT/27dd03a07c.png);--dm-image: url(https://puu.sh/w1y3a/7e878418b3.gif);--profile-image: url(https://puu.sh/sAO0x/fdecb6c24b.png);--background-blur: 0px;--background-brightness: 100%;--emoji-size: 50px; (in case you want to change it back) */
+}
+/* ORIGINAL: --main-color: #2780e6;--hover-color: #1f66b8;--channel-color: #ccffff;--background-image: url(https://puu.sh/w1xZT/27dd03a07c.png);--dm-image: url(https://puu.sh/w1y3a/7e878418b3.gif);--profile-image: url(https://puu.sh/sAO0x/fdecb6c24b.png);--nsfw-image: url(https://puu.sh/zbrR0/f770ed351a.jpeg);--background-blur: 0px;--background-brightness: 100%;--emoji-size: 50px; (in case you want to change it back) */
 /*
 --------------------------------------------------------------------------------------------------------------------------------------------
 */
