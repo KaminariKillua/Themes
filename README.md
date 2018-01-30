@@ -70,4 +70,8 @@ Customizable: Customize the theme with your own colours, images and more! (Compa
 * <a href='http://www.clker.com/clipart-sakura-blossom.html' target='_new'>DM Image</a> <span style='position: absolute; bottom: 0; left: 0;'>
 * <a href='http://78.media.tumblr.com/19234bf66ba3a8cd153f5bbb35fa0731/tumblr_noq4zxZq571txt22yo1_500.gif' target='_new'>Profile Header</a> <span style='position: absolute; bottom: 0; left: 0;'>
 
+<<<<<<< HEAD
 # NOTE: The themes only work on Light Mode!
+=======
+# NOTE: The themes only work on Light Mode!
+>>>>>>> b6d0fa01340f5722cbef8b5646e5376b293be0a0

@@ -1,6 +1,5 @@
 /* NEW TITLE BAR - By intrnl, modified by Raiju*/
 :root {   
-    --titlebar-image: url(https://discordapp.com/assets/93608abbd20d90c13004925014a9fd01.svg);
     --i-dtl-buttonwidth: 48px;
     --i-dtl-resizeheight: 6px;
     --i-dtl-titlebarheight: 30px;
@@ -8,7 +7,7 @@
     --i-dtl-tft-fontsize: 14px;
 }
 .titleBar-3_fDwJ .wordmark-2L03Wr {
-    background-image: var(--titlebar-image);
+    background-image: url(https://cdn.rawgit.com/KaminariKillua/Themes/4527bb60/Icons/PrismPrison.logo.svg);
     background-size: 60px 19px;
 }
 
