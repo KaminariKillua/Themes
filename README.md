@@ -2,7 +2,7 @@
 Version 8.0 has been released!
 The 'Way Overdue' update.
 
-- Added
+**Added**
 * NSFW Screen with custom image
 * Authenthication Screen
 * Server Welcome message
@@ -11,7 +11,7 @@ The 'Way Overdue' update.
 * Logo to new titlebar
 * More clarity
 
-- Changed
+**Changed**
 * Sliders & checkboxes
 * Bot tags
 * Profile popups
@@ -20,7 +20,7 @@ The 'Way Overdue' update.
 * LINE Sticker picker
 * Chat emoji previewer
 
-- Fixed
+**Fixed**
 * A couple of popouts
 * Added some missing spacing 
 * Pressed button colour
