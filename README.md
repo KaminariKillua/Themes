@@ -35,6 +35,11 @@ The 'Way Overdue' update.
 * Context menus
 
 
+Version 8.1 hotfix
+Quality of Life update
+
+* Dark and Light appearance now works
+
 # Themes
 There are currently 3 themes:
 
