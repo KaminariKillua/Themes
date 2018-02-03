@@ -36,7 +36,7 @@ Version 8.0 has been released - The 'Way Overdue' update.
 
 Version 8.1 hotfix - Quality of Life update
 
-* Dark and Light appearance now works
+* Supports both Light and Dark modes
 
 # Themes
 There are currently 3 themes:
