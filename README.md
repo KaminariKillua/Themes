@@ -1,42 +1,12 @@
 # Changelog
-Version 8.0 has been released - The 'Way Overdue' update.
-
-**Added**
-* NSFW Screen with custom image
-* Authenthication Screen
-* Server Welcome message
-* Earlier version unread channel markers
-* Server Invite chat previews
-* Logo to new titlebar
-* More clarity
-
-**Changed**
-* Sliders & checkboxes
-* Bot tags
-* Profile popups
-* BD-CCSS panel
-* Friends hub
-* LINE Sticker picker
-* Chat emoji previewer
+Version 8.3 has been released!
 
 **Fixed**
-* A couple of popouts
-* Added some missing spacing 
-* Pressed button colour
-* Date picker
-* Backgrounds
-* Server settings (Colour picker, Region picker, etc.)
-* Embeds
-* Upload modal
-* Background Blur & Background Brightness
-* Streamer mode bar
-* Emoji Picker
-* Context menus
-
-
-Version 8.1 hotfix - Quality of Life update
-
-* Supports both Light and Dark modes
+* Members list
+* (Video) Private calls
+* Colour of some settings buttons
+* Settings subtitles
+* Context menu clipping
 
 # Themes
 There are currently 3 themes:
