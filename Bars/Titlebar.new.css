@@ -6,18 +6,18 @@
     --i-dtl-tft-offset: 75px;
     --i-dtl-tft-fontsize: 14px;
 }
-.titleBar-3_fDwJ .wordmark-2L03Wr {
+.titleBar-AC4pGV .wordmark-2iDDfm {
     background-image: url(https://cdn.rawgit.com/KaminariKillua/Themes/4527bb60/Icons/PrismPrison.logo.svg);
     background-size: 60px 19px;
 }
 
-.titleBar-3_fDwJ div:nth-of-type(2) {
+.titleBar-AC4pGV div:nth-of-type(2) {
     background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg);
 }
-.titleBar-3_fDwJ div:nth-of-type(3) {
+.titleBar-AC4pGV div:nth-of-type(3) {
     background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/fullscreen.svg);
 }
-.titleBar-3_fDwJ div:nth-of-type(4) {
+.titleBar-AC4pGV div:nth-of-type(4) {
     background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg);
 }
 
@@ -45,7 +45,7 @@
 .ui-standard-sidebar-view .custom-column {
     min-height: calc(100vh - var(--i-dtl-titlebarheight));
 }
-.modal-2LIEKY {
+.modal-1UGdnR {
     margin-top: var(--i-dtl-titlebarheight);
     padding-top: calc(60px - var(--i-dtl-titlebarheight));
 }
@@ -64,10 +64,10 @@
 }
 
 /* Titlebar */
-.titleBar-3_fDwJ {
+.titleBar-AC4pGV {
     background-color: rgba(0,0,0,0.6);
 }
-.titleBar-3_fDwJ:after {
+.titleBar-AC4pGV:after {
     content: '';
     height: var(--i-dtl-resizeheight);
     width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
@@ -77,15 +77,15 @@
     z-index: 3002;
     -webkit-app-region: no-drag;
 }
-.titleBar-3_fDwJ.typeWindows-15E0Ys {
+.titleBar-AC4pGV.typeWindows-1za-n7 {
     height: var(--i-dtl-titlebarheight);
     margin-top: 0;
 }
-.titleBar-3_fDwJ .wordmark-2L03Wr svg,
-.titleBar-3_fDwJ .winButton-U7zAqI svg {
+.titleBar-AC4pGV .wordmark-2iDDfm svg,
+.titleBar-AC4pGV .winButton-iRh8-Z svg {
     display: none;
 }
-.titleBar-3_fDwJ .wordmark-2L03Wr {
+.titleBar-AC4pGV .wordmark-2iDDfm {
     height: var(--i-dtl-titlebarheight);
     width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
     box-sizing: border-box;
@@ -94,7 +94,7 @@
     background-position-y: center;
     background-repeat: no-repeat;
 }
-.titleBar-3_fDwJ .winButton-U7zAqI {
+.titleBar-AC4pGV .winButton-iRh8-Z {
     height: var(--i-dtl-titlebarheight);
     width: var(--i-dtl-buttonwidth);
     top: 0;
