@@ -6,11 +6,6 @@
     --i-dtl-tft-offset: 75px;
     --i-dtl-tft-fontsize: 14px;
 }
-.titleBar-AC4pGV .wordmark-2iDDfm {
-    background-image: url(https://cdn.rawgit.com/KaminariKillua/Themes/4527bb60/Icons/PrismPrison.logo.svg);
-    background-size: 60px 19px;
-}
-
 .titleBar-AC4pGV div:nth-of-type(2) {
     background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg);
 }
@@ -81,7 +76,6 @@
     height: var(--i-dtl-titlebarheight);
     margin-top: 0;
 }
-.titleBar-AC4pGV .wordmark-2iDDfm svg,
 .titleBar-AC4pGV .winButton-iRh8-Z svg {
     display: none;
 }
@@ -105,3 +99,12 @@
     background-size: 20px;
 }
 /* NEW TITLE BAR */
+/* TITLEBAR ICON */
+.titleBar-AC4pGV .wordmark-2iDDfm svg  {
+    display: inline;
+    width: 60px !important;
+    height: 22px !important;
+    background-image: url(https://cdn.rawgit.com/KaminariKillua/Themes/4527bb60/Icons/PrismPrison.logo.svg) !important;
+    background-size: cover !important;
+}
+/* TITLEBAR ICON */
