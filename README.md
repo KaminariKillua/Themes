@@ -1,12 +1,8 @@
 # Changelog
-Version 8.3 has been released!
+Version 9.0 has been released!
 
 **Fixed**
-* Members list
-* (Video) Private calls
-* Colour of some settings buttons
-* Settings subtitles
-* Context menu clipping
+* Everything
 
 # Themes
 There are currently 3 themes:
